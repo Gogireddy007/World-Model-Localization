@@ -1,0 +1,810 @@
+{
+ "neuron": [
+  {
+   "d": 2,
+   "basis": "neuron",
+   "n_seeds": 2,
+   "floor": 0.5773502691896257,
+   "floor_measured_rank": [
+    0.5773502691896257,
+    0.5773502691896257
+   ],
+   "gain_permanence": [
+    0.23256660997867584,
+    0.1677553653717041
+   ],
+   "gain_ci_permanence": [
+    [
+     0.1599218100309372,
+     0.3166531026363373
+    ],
+    [
+     0.0337497815489769,
+     0.2999405562877655
+    ]
+   ],
+   "readout_permanence": [
+    -0.11151952669024467,
+    -0.18002335913479328
+   ],
+   "gain_collision": [
+    -0.1997194141149521,
+    -0.18883085250854492
+   ],
+   "gain_ci_collision": [
+    [
+     -0.47073596715927124,
+     0.04489131271839142
+    ],
+    [
+     -0.674902617931366,
+     0.2563192844390869
+    ]
+   ],
+   "readout_collision": [
+    -0.31925517320632935,
+    -0.17694704793393612
+   ],
+   "gain_identity": [
+    -0.005544391926378012,
+    -0.0007024267106316984
+   ],
+   "gain_ci_identity": [
+    [
+     -0.057520169764757156,
+     0.027518969029188156
+    ],
+    [
+     -0.02335968427360058,
+     0.024342479184269905
+    ]
+   ],
+   "readout_identity": [
+    0.014629180543124676,
+    0.004743724130094051
+   ],
+   "gain_continuity": [
+    -0.00507607264444232,
+    0.02136978879570961
+   ],
+   "gain_ci_continuity": [
+    [
+     -0.015051078051328659,
+     0.00490661570802331
+    ],
+    [
+     -0.014883432537317276,
+     0.06678499281406403
+    ]
+   ],
+   "readout_continuity": [
+    0.01533222573925741,
+    0.0493355420185253
+   ],
+   "rank": [
+    2,
+    2
+   ],
+   "eps_weighted_opt_joint": [
+    1.4931798690161737,
+    5.792797824820635
+   ],
+   "certificate_joint": [
+    1.3679823152150794,
+    5.018047133307045
+   ],
+   "joint_selective": [
+    Infinity,
+    Infinity
+   ],
+   "per_inv_selective": [
+    {
+     "permanence": Infinity,
+     "collision": Infinity,
+     "identity": 31.022951209022196,
+     "continuity": 16.212005993186317
+    },
+    {
+     "permanence": Infinity,
+     "collision": Infinity,
+     "identity": 31.798522284201688,
+     "continuity": 3.539171204529134
+    }
+   ],
+   "joint_top_cii": [
+    Infinity,
+    Infinity
+   ],
+   "per_inv_top_cii": [
+    {
+     "permanence": Infinity,
+     "collision": Infinity,
+     "identity": 31.022951209022196,
+     "continuity": 16.212005993186317
+    },
+    {
+     "permanence": Infinity,
+     "collision": Infinity,
+     "identity": 31.798522284201688,
+     "continuity": 3.539171204529134
+    }
+   ],
+   "additivity_err_max": [
+    0.03632744910090002,
+    0.013708543606882444
+   ]
+  },
+  {
+   "d": 4,
+   "basis": "neuron",
+   "n_seeds": 1,
+   "floor": 0.0,
+   "floor_measured_rank": [
+    0.0
+   ],
+   "gain_permanence": [
+    0.22156231105327606
+   ],
+   "gain_ci_permanence": [
+    [
+     0.15669095516204834,
+     0.2908237874507904
+    ]
+   ],
+   "readout_permanence": [
+    -0.12606878066435456
+   ],
+   "gain_collision": [
+    -0.14976093173027039
+   ],
+   "gain_ci_collision": [
+    [
+     -0.4377194046974182,
+     0.1924099624156952
+    ]
+   ],
+   "readout_collision": [
+    -0.1537095190724358
+   ],
+   "gain_identity": [
+    0.00014358638145495206
+   ],
+   "gain_ci_identity": [
+    [
+     -0.05183013156056404,
+     0.04394093528389931
+    ]
+   ],
+   "readout_identity": [
+    0.001087061387806898
+   ],
+   "gain_continuity": [
+    -0.0019036909798160195
+   ],
+   "gain_ci_continuity": [
+    [
+     -0.015109166502952576,
+     0.009768150746822357
+    ]
+   ],
+   "readout_continuity": [
+    0.002846131136720942
+   ],
+   "rank": [
+    4
+   ],
+   "eps_weighted_opt_joint": [
+    0.0
+   ],
+   "certificate_joint": [
+    0.0
+   ],
+   "joint_selective": [
+    Infinity
+   ],
+   "per_inv_selective": [
+    {
+     "permanence": 1.6070530225622113,
+     "collision": Infinity,
+     "identity": 133.41385056292947,
+     "continuity": 46.96023687212527
+    }
+   ],
+   "joint_top_cii": [
+    Infinity
+   ],
+   "per_inv_top_cii": [
+    {
+     "permanence": Infinity,
+     "collision": Infinity,
+     "identity": 133.41385056292947,
+     "continuity": 46.96023687212527
+    }
+   ],
+   "additivity_err_max": [
+    0.12366182060657505
+   ]
+  },
+  {
+   "d": 64,
+   "basis": "neuron",
+   "n_seeds": 3,
+   "floor": 0.0,
+   "floor_measured_rank": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "gain_permanence": [
+    0.11236734688282013,
+    0.16681233048439026,
+    0.06570710241794586
+   ],
+   "gain_ci_permanence": [
+    [
+     0.09214097261428833,
+     0.1357572227716446
+    ],
+    [
+     0.1358817219734192,
+     0.20318609476089478
+    ],
+    [
+     0.047410398721694946,
+     0.08541527390480042
+    ]
+   ],
+   "readout_permanence": [
+    0.15906990013991162,
+    0.20385241859185044,
+    0.1240130817800491
+   ],
+   "gain_collision": [
+    -0.03925086557865143,
+    -0.11915362626314163,
+    -0.10067848116159439
+   ],
+   "gain_ci_collision": [
+    [
+     -0.13406303524971008,
+     0.03781703859567642
+    ],
+    [
+     -0.26343801617622375,
+     0.028739482164382935
+    ],
+    [
+     -0.19034381210803986,
+     -0.02089972235262394
+    ]
+   ],
+   "readout_collision": [
+    -0.04646417024582661,
+    -0.16620540989970323,
+    -0.15237330286072392
+   ],
+   "gain_identity": [
+    -0.010027511045336723,
+    -0.0010599385714158416,
+    0.0032747352961450815
+   ],
+   "gain_ci_identity": [
+    [
+     -0.029773734509944916,
+     0.00439620204269886
+    ],
+    [
+     -0.014514919370412827,
+     0.010650863870978355
+    ],
+    [
+     -0.021935762837529182,
+     0.02519507333636284
+    ]
+   ],
+   "readout_identity": [
+    -0.01549198752582015,
+    -0.009076232289089603,
+    -0.006655377971583221
+   ],
+   "gain_continuity": [
+    -0.006970337592065334,
+    -0.0075481003150343895,
+    -0.005631105042994022
+   ],
+   "gain_ci_continuity": [
+    [
+     -0.016591204330325127,
+     0.0013119443319737911
+    ],
+    [
+     -0.030082624405622482,
+     0.01367998868227005
+    ],
+    [
+     -0.0167305339127779,
+     0.0037367944605648518
+    ]
+   ],
+   "readout_continuity": [
+    -0.011259871737820504,
+    -0.014386903738341061,
+    -0.007345344529689157
+   ],
+   "rank": [
+    4,
+    4,
+    4
+   ],
+   "eps_weighted_opt_joint": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "certificate_joint": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "joint_selective": [
+    Infinity,
+    Infinity,
+    Infinity
+   ],
+   "per_inv_selective": [
+    {
+     "permanence": 0.5194912876792753,
+     "collision": 2.1708671123756926,
+     "identity": Infinity,
+     "continuity": Infinity
+    },
+    {
+     "permanence": 0.6215491389609018,
+     "collision": Infinity,
+     "identity": Infinity,
+     "continuity": 16.827744345988236
+    },
+    {
+     "permanence": 2.3607983325740634,
+     "collision": 0.2880686601762774,
+     "identity": Infinity,
+     "continuity": Infinity
+    }
+   ],
+   "joint_top_cii": [
+    Infinity,
+    Infinity,
+    Infinity
+   ],
+   "per_inv_top_cii": [
+    {
+     "permanence": 0.4913263700671935,
+     "collision": 20.878613597788817,
+     "identity": Infinity,
+     "continuity": Infinity
+    },
+    {
+     "permanence": 0.6339833185514472,
+     "collision": Infinity,
+     "identity": Infinity,
+     "continuity": Infinity
+    },
+    {
+     "permanence": 1.2101766840461197,
+     "collision": Infinity,
+     "identity": Infinity,
+     "continuity": Infinity
+    }
+   ],
+   "additivity_err_max": [
+    0.008536167377221855,
+    0.0067342133856595696,
+    0.020766967769319838
+   ]
+  }
+ ],
+ "sae": [
+  {
+   "d": 2,
+   "basis": "sae",
+   "n_seeds": 2,
+   "floor": 0.5773502691896257,
+   "floor_measured_rank": [
+    0.0,
+    0.0
+   ],
+   "gain_permanence": [
+    0.23256660997867584,
+    0.1677553653717041
+   ],
+   "gain_ci_permanence": [
+    [
+     0.1599218100309372,
+     0.3166531026363373
+    ],
+    [
+     0.0337497815489769,
+     0.2999405562877655
+    ]
+   ],
+   "readout_permanence": [
+    -0.12571043241769075,
+    -0.17892935406416655
+   ],
+   "gain_collision": [
+    -0.1997194141149521,
+    -0.18883085250854492
+   ],
+   "gain_ci_collision": [
+    [
+     -0.47073596715927124,
+     0.04489131271839142
+    ],
+    [
+     -0.674902617931366,
+     0.2563192844390869
+    ]
+   ],
+   "readout_collision": [
+    -0.2892333776690066,
+    -0.18158599501475692
+   ],
+   "gain_identity": [
+    -0.005544391926378012,
+    -0.0007024267106316984
+   ],
+   "gain_ci_identity": [
+    [
+     -0.057520169764757156,
+     0.027518969029188156
+    ],
+    [
+     -0.02335968427360058,
+     0.024342479184269905
+    ]
+   ],
+   "readout_identity": [
+    0.011715898639522493,
+    0.003963767216191627
+   ],
+   "gain_continuity": [
+    -0.00507607264444232,
+    0.02136978879570961
+   ],
+   "gain_ci_continuity": [
+    [
+     -0.015051078051328659,
+     0.00490661570802331
+    ],
+    [
+     -0.014883432537317276,
+     0.06678499281406403
+    ]
+   ],
+   "readout_continuity": [
+    0.015464582937511295,
+    0.04797570290975273
+   ],
+   "rank": [
+    4,
+    4
+   ],
+   "eps_weighted_opt_joint": [
+    0.0,
+    0.0
+   ],
+   "certificate_joint": [
+    0.0,
+    0.0
+   ],
+   "joint_selective": [
+    Infinity,
+    37.94102256040102
+   ],
+   "per_inv_selective": [
+    {
+     "permanence": Infinity,
+     "collision": Infinity,
+     "identity": Infinity,
+     "continuity": 14.576752764637625
+    },
+    {
+     "permanence": 2.134991915428801,
+     "collision": 0.468385848570839,
+     "identity": 37.94102256040102,
+     "continuity": 3.850061946012642
+    }
+   ],
+   "joint_top_cii": [
+    Infinity,
+    Infinity
+   ],
+   "per_inv_top_cii": [
+    {
+     "permanence": Infinity,
+     "collision": Infinity,
+     "identity": Infinity,
+     "continuity": 14.576752764637625
+    },
+    {
+     "permanence": Infinity,
+     "collision": Infinity,
+     "identity": 37.94102256040102,
+     "continuity": 3.850061946012642
+    }
+   ],
+   "additivity_err_max": [
+    0.0006099831308931429,
+    0.00306613434775993
+   ]
+  },
+  {
+   "d": 4,
+   "basis": "sae",
+   "n_seeds": 1,
+   "floor": 0.0,
+   "floor_measured_rank": [
+    0.0
+   ],
+   "gain_permanence": [
+    0.22156231105327606
+   ],
+   "gain_ci_permanence": [
+    [
+     0.15669095516204834,
+     0.2908237874507904
+    ]
+   ],
+   "readout_permanence": [
+    -0.11441807942537707
+   ],
+   "gain_collision": [
+    -0.14976093173027039
+   ],
+   "gain_ci_collision": [
+    [
+     -0.4377194046974182,
+     0.1924099624156952
+    ]
+   ],
+   "readout_collision": [
+    -0.15812724510578846
+   ],
+   "gain_identity": [
+    0.00014358638145495206
+   ],
+   "gain_ci_identity": [
+    [
+     -0.05183013156056404,
+     0.04394093528389931
+    ]
+   ],
+   "readout_identity": [
+    0.0014756779246454244
+   ],
+   "gain_continuity": [
+    -0.0019036909798160195
+   ],
+   "gain_ci_continuity": [
+    [
+     -0.015109166502952576,
+     0.009768150746822357
+    ]
+   ],
+   "readout_continuity": [
+    0.00310478343038767
+   ],
+   "rank": [
+    4
+   ],
+   "eps_weighted_opt_joint": [
+    0.0
+   ],
+   "certificate_joint": [
+    0.0
+   ],
+   "joint_selective": [
+    Infinity
+   ],
+   "per_inv_selective": [
+    {
+     "permanence": Infinity,
+     "collision": 6.167385570075365,
+     "identity": 16.54306614087543,
+     "continuity": 82.00685658000813
+    }
+   ],
+   "joint_top_cii": [
+    Infinity
+   ],
+   "per_inv_top_cii": [
+    {
+     "permanence": Infinity,
+     "collision": Infinity,
+     "identity": 103.57195963657028,
+     "continuity": Infinity
+    }
+   ],
+   "additivity_err_max": [
+    0.002315872014308573
+   ]
+  },
+  {
+   "d": 64,
+   "basis": "sae",
+   "n_seeds": 3,
+   "floor": 0.0,
+   "floor_measured_rank": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "gain_permanence": [
+    0.11236734688282013,
+    0.16681233048439026,
+    0.06570710241794586
+   ],
+   "gain_ci_permanence": [
+    [
+     0.09214097261428833,
+     0.1357572227716446
+    ],
+    [
+     0.1358817219734192,
+     0.20318609476089478
+    ],
+    [
+     0.047410398721694946,
+     0.08541527390480042
+    ]
+   ],
+   "readout_permanence": [
+    0.16213837030064493,
+    0.21487513044610562,
+    0.12585648710143493
+   ],
+   "gain_collision": [
+    -0.03925086557865143,
+    -0.11915362626314163,
+    -0.10067848116159439
+   ],
+   "gain_ci_collision": [
+    [
+     -0.13406303524971008,
+     0.03781703859567642
+    ],
+    [
+     -0.26343801617622375,
+     0.028739482164382935
+    ],
+    [
+     -0.19034381210803986,
+     -0.02089972235262394
+    ]
+   ],
+   "readout_collision": [
+    -0.04977884703998536,
+    -0.15470894918690703,
+    -0.1477549213930306
+   ],
+   "gain_identity": [
+    -0.010027511045336723,
+    -0.0010599385714158416,
+    0.0032747352961450815
+   ],
+   "gain_ci_identity": [
+    [
+     -0.029773734509944916,
+     0.00439620204269886
+    ],
+    [
+     -0.014514919370412827,
+     0.010650863870978355
+    ],
+    [
+     -0.021935762837529182,
+     0.02519507333636284
+    ]
+   ],
+   "readout_identity": [
+    -0.015376187225267263,
+    -0.007809196472343849,
+    -0.006673398853851015
+   ],
+   "gain_continuity": [
+    -0.006970337592065334,
+    -0.0075481003150343895,
+    -0.005631105042994022
+   ],
+   "gain_ci_continuity": [
+    [
+     -0.016591204330325127,
+     0.0013119443319737911
+    ],
+    [
+     -0.030082624405622482,
+     0.01367998868227005
+    ],
+    [
+     -0.0167305339127779,
+     0.0037367944605648518
+    ]
+   ],
+   "readout_continuity": [
+    -0.011260660071942041,
+    -0.01318489142071086,
+    -0.005851365127431729
+   ],
+   "rank": [
+    4,
+    4,
+    4
+   ],
+   "eps_weighted_opt_joint": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "certificate_joint": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "joint_selective": [
+    Infinity,
+    Infinity,
+    Infinity
+   ],
+   "per_inv_selective": [
+    {
+     "permanence": 0.3928233692951814,
+     "collision": 0.6965120496092596,
+     "identity": Infinity,
+     "continuity": Infinity
+    },
+    {
+     "permanence": 0.5589567203888205,
+     "collision": Infinity,
+     "identity": 16.719694286197647,
+     "continuity": Infinity
+    },
+    {
+     "permanence": 1.8609083820556387,
+     "collision": 0.4657198028476301,
+     "identity": Infinity,
+     "continuity": Infinity
+    }
+   ],
+   "joint_top_cii": [
+    Infinity,
+    Infinity,
+    Infinity
+   ],
+   "per_inv_top_cii": [
+    {
+     "permanence": 0.5281888434221315,
+     "collision": Infinity,
+     "identity": Infinity,
+     "continuity": Infinity
+    },
+    {
+     "permanence": 0.4032986027882937,
+     "collision": Infinity,
+     "identity": Infinity,
+     "continuity": Infinity
+    },
+    {
+     "permanence": 1.2147831894653205,
+     "collision": Infinity,
+     "identity": Infinity,
+     "continuity": Infinity
+    }
+   ],
+   "additivity_err_max": [
+    0.0037896413978680712,
+    0.014674716592402048,
+    0.06157173242096193
+   ]
+  }
+ ]
+}

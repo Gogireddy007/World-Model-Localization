@@ -1,0 +1,8 @@
+# regenerated automatically by the code
+data_cache/
+tables/
+logs/
+__pycache__/
+*.pyc
+.DS_Store
+.vt/
