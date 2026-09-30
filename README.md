@@ -1,11 +1,7 @@
 # When Is World-Model Knowledge Localizable?
 
-**Yugandhar Reddy Gogireddy\* · Jithendra Reddy Gogireddy\***
-<sub>\*Equal contribution</sub>
-
 This is the code for our paper *When Is World-Model Knowledge Localizable? A
 Tight Floor on Circuit Selectivity, and What Trained Predictors Actually Do*.
-Everything runs on an ordinary laptop CPU. No GPU is needed.
 
 ---
 
