@@ -170,17 +170,4 @@ videos in `data_cache/`, which takes about 20 seconds.
   we wrote down what would count as success in `docs/preregistration.md`, and
   we report results against those targets, including the ones we missed.
 
-## Citation
 
-If this work is useful to you, please cite it. GitHub's **Cite this repository**
-button (right sidebar) gives the citation in APA and BibTeX, from
-[`CITATION.cff`](CITATION.cff). Or copy it here:
-
-```bibtex
-@misc{gogireddy2026localizable,
-  title  = {When Is World-Model Knowledge Localizable? A Tight Floor on Circuit
-            Selectivity, and What Trained Predictors Actually Do},
-  author = {Gogireddy, Yugandhar Reddy and Gogireddy, Jithendra Reddy},
-  year   = {2026}
-}
-```
